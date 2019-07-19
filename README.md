@@ -10,5 +10,5 @@ Which creates an executable, "inference"
 
 Run the program:   
 ```$ ./inference prev_states.txt```   
-Where prev_states.txt contains a true/false sequence representing the results of all previous states.  
+Where prev_states.txt contains a binary sequence representing the results of all previous states.  
 The program outputs the probability that the next state after the given states will yield true.  
