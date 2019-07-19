@@ -6,9 +6,9 @@ A Markov model is a stochastic model used to model randomly changing systems. It
 ## Instructions  
 Build:  
 ```$ make```  
-Which creates an executable, "run"   
+Which creates an executable, "inference"   
 
 Run the program:   
-```$ ./run prev_states.txt```   
+```$ ./inference prev_states.txt```   
 Where prev_states.txt contains a true/false sequence representing the results of all previous states.  
 The program outputs the probability that the next state after the given states will yield true.  
